@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/streams")
-@CrossOrigin(origins = "http://localhost:3000")
 public class StreamController {
 
     private final StreamService streamService;
